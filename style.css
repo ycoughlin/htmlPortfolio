@@ -1,0 +1,100 @@
+body {
+	background-color: lavenderblush
+}
+
+.navBar {
+
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+/* Change the link color to #111 (black) on hover */
+li a:hover {
+    background-color: #111;
+}
+
+h1 {
+	font-family: 'Permanent Marker', cursive;
+}
+
+h2 {
+	font-family: 'Satisfy', cursive;
+}
+
+p {
+	font-family: 'Lato', sans-serif;
+}
+.container {
+
+}
+
+.row {
+
+}
+
+#image { 
+	display: block;
+    margin-left: auto;
+    margin-right: auto; 
+}
+
+/*Trying a different way of doing columns*/
+#summary {
+	column-count: 2;
+	column-gap: 10px;
+}
+
+#welcome {
+
+}
+
+#aboutMe {
+
+}
+
+#skills {
+	column-count: 3;
+	column-gap: 10px;
+
+}
+
+#projects {
+	column-count: 3;
+	column-gap: 10px;
+}
+
+#resume {
+	column-count: 4;
+	column-gap: 10px;
+}
+
+#blog {
+
+}
+
+#contact {
+	float: none;
+	background-color: #dddddd;
+	overflow-x: hidden;
+	padding-top: 60px;
+	transition: 0.5s;
+}
+
