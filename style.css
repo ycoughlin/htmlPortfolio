@@ -1,42 +1,74 @@
 body {
-	background-color: lavenderblush
+	background-color: #B7CECE
 }
 
-.navBar {
+/*header {
+	height: 70px;
+	position: fixed;
+	top: 0;
+	transition: top 0.2s ease-in-out;*/
+}
 
+div {
+	display: block;
+}
+
+.navWrapper {
+    background-color: #6E7E85;
+    overflow: hidden;
+}
+
+.navWrapper a {
+	float: left;
+	display: block;
+    color: #B7CECE;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+	font-family: 'Kaushan Script', cursive;	
+}
+
+.navWrapper a:hover {
+	background-color: #BBBAC6;
+	color: #1c0f13;
 }
 
 ul {
     list-style-type: none;
     margin: 0;
     padding: 0;
-    overflow: hidden;
-    background-color: #333;
+    /*overflow: hidden;*/
+    /*background-color: #6E7E85;*/
 }
 
-li {
+/*li {
     float: left;
-}
+}*/
 
-li a {
+/*li a {
     display: block;
-    color: white;
+    color: #f1fb85;
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
-}
+	font-family: 'Kaushan Script', cursive;
+}*/
 
 /* Change the link color to #111 (black) on hover */
-li a:hover {
-    background-color: #111;
-}
+/*li a:hover {
+    background-color: #BBBAC6;
+}*/
 
 h1 {
-	font-family: 'Permanent Marker', cursive;
+	font-family: 'Satisfy', cursive;
+	color: #1c0f13;
+	text-align: center;
 }
 
 h2 {
-	font-family: 'Satisfy', cursive;
+	font-family: 'Kaushan Script', cursive;
+	color: #1c0f13;
+	text-align: center;
 }
 
 p {
@@ -92,9 +124,31 @@ p {
 
 #contact {
 	float: none;
-	background-color: #dddddd;
 	overflow-x: hidden;
 	padding-top: 60px;
 	transition: 0.5s;
 }
 
+/*Media Queries*/
+
+@media screen and (max-width: 600px) {
+	.navWrapper a:not(:first-child) {display: none;}
+	.navWrapper a.icon {
+		float: right;
+		display: block;
+	}
+}
+
+@media screen and (max-width: 600px) {
+	.navWrapper.responsive {position: relative;}
+	.topnav.responsive a.icon {
+		position: absolute;
+		right: 0;
+		top: 0;
+	}
+	.navWrapper.responsive a {
+		float: none;
+		display: block;
+		text-align: left;
+	}
+}
