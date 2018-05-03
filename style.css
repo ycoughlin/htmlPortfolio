@@ -1,5 +1,5 @@
 body {
-	background-color: #B7CECE
+    background: linear-gradient(to bottom, #6e7e85 0%, #89afaf, #b7cece 100%);
 }
 
 /*header {
@@ -11,6 +11,44 @@ body {
 
 div {
 	display: block;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    /*overflow: hidden;*/
+    /*background-color: #6E7E85;*/
+}
+
+h1 {
+	font-family: 'Satisfy', cursive;
+	color: #1c0f13;
+	text-align: left;
+	border-bottom: 4px double #4f2a36;
+}
+
+h2 {
+	font-family: 'Courgette', cursive;
+	color: #1c0f13;
+	text-align: left;
+	border-bottom: 3px dotted #753e6c;
+}
+
+p {
+	font-family: 'Lato', sans-serif;
+	text-align: justify;
+
+}
+
+button {
+	background-color: #BBBAC6;
+	color: #1c0f13;
+	font-family: 'Lato', sans-serif;
+}
+
+form {
+	background-color: #d1dfdf;
 }
 
 .navWrapper {
@@ -25,7 +63,8 @@ div {
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
-	font-family: 'Kaushan Script', cursive;	
+	font-family: 'Satisfy', cursive;
+	font-size: 30px;
 }
 
 .navWrapper a:hover {
@@ -33,47 +72,14 @@ div {
 	color: #1c0f13;
 }
 
-ul {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    /*overflow: hidden;*/
-    /*background-color: #6E7E85;*/
+.bordered {
+	border-width: 6px;
+	border-color: #f1fb85;
+	border-style: dotted dashed solid double;
+	margin-top: 15px;
+	margin-bottom: 15px;
 }
 
-/*li {
-    float: left;
-}*/
-
-/*li a {
-    display: block;
-    color: #f1fb85;
-    text-align: center;
-    padding: 14px 16px;
-    text-decoration: none;
-	font-family: 'Kaushan Script', cursive;
-}*/
-
-/* Change the link color to #111 (black) on hover */
-/*li a:hover {
-    background-color: #BBBAC6;
-}*/
-
-h1 {
-	font-family: 'Satisfy', cursive;
-	color: #1c0f13;
-	text-align: center;
-}
-
-h2 {
-	font-family: 'Kaushan Script', cursive;
-	color: #1c0f13;
-	text-align: center;
-}
-
-p {
-	font-family: 'Lato', sans-serif;
-}
 .container {
 
 }
@@ -82,16 +88,40 @@ p {
 
 }
 
+.flex-container {
+	display: flex;
+	flex-direction: row;
+}
+
+.col-sm {
+
+}
+
 #image { 
 	display: block;
     margin-left: auto;
-    margin-right: auto; 
+    margin-right: auto;
+    margin-top: 15px; 
+    margin-bottom: 15px;
+}
+
+#about {
+	background-color: #95b7b7;
+	margin-top: 15px;
+	margin-bottom: 15px;
+}
+
+#name {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	padding-top: 15px;
 }
 
 /*Trying a different way of doing columns*/
 #summary {
-	column-count: 2;
-	column-gap: 10px;
+	margin-left: auto;
+	margin-right: auto;
 }
 
 #welcome {
@@ -100,34 +130,76 @@ p {
 
 #aboutMe {
 
+
 }
 
 #skills {
-	column-count: 3;
-	column-gap: 10px;
+	background-color: #a1bfbf;
+	margin-top: 15px;
+	margin-bottom: 15px;
 
+}
+
+#skillsH {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	padding-top: 15px;
 }
 
 #projects {
-	column-count: 3;
-	column-gap: 10px;
+	background-color: #adc7c7;
+	margin-top: 15px;
+	margin-bottom: 15px;
+
+}
+
+#projectH {
+	margin-left: auto;
+	margin-right: auto;
+	padding-top: 15px;	
 }
 
 #resume {
-	column-count: 4;
-	column-gap: 10px;
+	background-color: #b9cfcf;
+	margin-top: 15px;
+	margin-bottom: 15px;
+
+}
+
+#resumeH {
+	margin-left: auto;
+	margin-right: auto;
+	padding-top: 15px;
 }
 
 #blog {
+	background-color: #c5d7d7;
+	margin-top: 15px;
+	margin-bottom: 15px;
 
+}
+
+#blogH {
+	margin-left: auto;
+	margin-right: auto;
+	padding-top: 15px;
 }
 
 #contact {
-	float: none;
+/*	float: none;
 	overflow-x: hidden;
 	padding-top: 60px;
 	transition: 0.5s;
+	background-color: #d1dfdf;*/
 }
+
+#contactH {
+	margin-left: auto;
+	margin-right: auto;
+	padding-top: 15px;
+}
+
 
 /*Media Queries*/
 
@@ -152,3 +224,9 @@ p {
 		text-align: left;
 	}
 }
+
+/*@media screen and (max-width: 600px) {
+	.column {
+		width: 100%
+	}
+}*/
