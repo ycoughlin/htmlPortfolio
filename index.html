@@ -7,9 +7,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <!-- bootstrap -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
-
     <!-- fonts -->
     <link href="https://fonts.googleapis.com/css?family=Courgette|East+Sea+Dokdo|Kaushan+Script|Lato|Pacifico|Permanent+Marker|Satisfy" rel="stylesheet">
+    <!-- CSS -->
     <link rel="stylesheet" type="text/css" media="screen" href="style.css" />
 </head>
 <body>
@@ -48,34 +48,49 @@
                 </div>
             </div> -->
             <!-- Add Social Icons -->
-            <div class="social"></div>
+            <div class="social">
+                <a href="https://github.com/ycoughlin">
+                    <img src="./assets/github.svg" alt="git" id="icon">
+                </a>
+                <a href="https://www.linkedin.com/in/yesenia-coughlin/">
+                    <img src="./assets/linkedin.svg" alt="linked" id="icon">
+                </a>
+            </div>
         </div>
     </header>
     <!-- Container -->
     <div class="container">
-        <!-- Image -->
-        <div class="row">
-            <img src="./assets/placeholder.jpg" alt="placeholder" id="image">
+        <!-- Adding Particles -->
+        <div class id="particles-js">
+            <!-- Image -->
+            <div class="row" id="imageDiv">
+                <!-- <img src="./assets/placeholder.jpg" alt="placeholder" id="image"> -->
+            </div>
         </div>
         <!-- Summary -->
         <div class="bordered">
+            <div class="row" id="welcome">
+                    <div class="row" id="welcomeH">
+                        <h1>Welcome</h1>
+                    </div>
+                    <div class="row" id="journey">
+                        <h2>Once Upon a Time</h2>
+                        <p>There was a girl who wanted to paint the world in magic. She realized that there were multiple ways to do this, and as she
+                        grew, her world expanded. Until she discovered code. It was the most magical, close to finding out the secrets to puzzling
+                        together electrons, protons and neutrons to make atoms. Who wouldn’t love to play with the building blocks of the world?</p>
+                    </div>
+            </div>
+        </div>
+        <div class="bordered">
             <div class="row" id="about">
-                <!-- Row, 2 Columns -->
-                <div class="row" id="name">
-                    <h1>Yesenia Coughlin</h1>
-                </div>
-                <div class="flex-container">
-                    <div class="row" id="summary">
-                        <div class="col-sm" id="welcome">
-                         <!-- Welcome, Column A -->
-                            <h2>Welcome</h2>
-                                <p>Web Developer with an art and finance background looking to utilize my love of design and understanding of customer privacy. Able to build elegant websites will full backend databases. Adept at working with diverse teams, capable of leadership and project management.</p>
-                        </div>
-                        <div class="col-sm" id="aboutMe">
-                            <!-- about Me, Column B -->
-                            <h2>About Me</h2>
-                                <p>I am a front end developer -- If I say that enough times, maybe I'll start to believe it.</p>
-                        </div>
+                <div class="row" id="summary">
+                    <div class="row" id="name">
+                        <h1>Yesenia M Coughlin</h1>
+                    </div>
+                    <div class="row" id="journey">
+                        <h2>About Me</h2>
+                        <p>I’m the girl who wants to paint the world with magic. The girl who wants to turn code into narrative. 
+                        I'm a recent graduate of the University of Miami Coding Bootcamp, a Font End Web Developer and aspiring Game Developer.</p>
                     </div>
                 </div>
             </div>
@@ -106,7 +121,7 @@
                             <button>Javascript</button>
                             <button>Node.js</button>
                             <button>Express.js</button>
-                            <button>Reast.js</button>
+                            <button>React.js</button>
                             <button>jQuery</button>
                             <button>MySql</button>
                             <button>MongoDB</button>
@@ -166,33 +181,46 @@
                     <!-- Row, Journey -->
                     <div class="row" id="journey">
                         <h2>My Journey</h2>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Harum obcaecati laborum deleniti, itaque earum possimus laudantium maiores commodi, nulla, accusantium consequuntur animi laboriosam aliquam dignissimos vero illum voluptate ipsa saepe.</p>
+                            <p>The places I've been inspire that places I'll go. Through each experience I grow and learn. I find myself in unexpected places.
+                                Who knew my love of art and story would one day merge into a love of code?
+                            </p>
                     </div>
                     <!-- Columns - Jamba, Regions, RAS -->
                     <div class="flex-container">
                         <div class="col-sm" id="jamba">
-                            <h3>Jamba Juice</h3>
-                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Tempora obcaecati voluptatibus porro voluptates, tempore alias, iusto sunt fuga, adipisci maiores dolore et, recusandae voluptatem. Recusandae officia architecto nostrum, non cupiditate.</p>
+                            <h2>Jamba Juice</h2>
+                                <p>My first job taught me team work and responsibility. I kept it cool and professional under high volume stress while delivering
+                                energetic costumer service. It illuminated my natural leaderships skills. Most importantly, it sparked the fires of my ambitions.
+                                It taught me to want and strive for more, helping me move from Team Member to Shift Leader in a matter of months.</p>
                         </div>
                         <div class="col-sm" id="regions">
-                            <h3>Regions Bank</h3>
-                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Blanditiis quia, modi veniam omnis quisquam qui repellendus eos aliquid cum necessitatibus commodi voluptatem mollitia, quo nesciunt reiciendis fuga accusamus iure. Dicta.</p>
+                            <h2>Regions Bank</h2>
+                                <p>Working at Regions expanded my awareness and attention to detail. I’ll never forget the time my drawer came up 3672 short
+                                because the scanner misread a check for 4080 for 408. It was probably my first lesson in computer science. I was forever
+                                amazed at how the smallest computer, and human, error could have the most drastic consequences.</p>
                         </div>
                         <div class="col-sm" id="ras">
-                            <h3>RAS</h3>
-                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Illo blanditiis ut, voluptate at. Est ratione facilis ipsa ducimus aperiam nulla voluptates cum corporis eius ea, aspernatur debitis expedita enim sequi!</p>
+                            <h2>RAS</h2>
+                                <p>My current job is a lesson in time management. There are perhaps few things more important in a law firm than deadlines.
+                                Building on a foundation of skills gained and honed through my past experiences, I work hard with my team to ensure that all
+                                departments move files quickly and accurately to meet client and court deadlines.
+                                </p>
                         </div> 
                     </div>
                     <!-- Columns - Ed, Next -->
                     <div class="flex-container">
                         <div class="col-sm" id="ed">
                             <h2>Education</h2>
-                                <p>University of Miami Coding BootCamp, Coral Gables - Certificate
-                                An intensive 7 month long bootcamp dedicated to designing and building web applications</p>
+                                <p>University of Miami Coding BootCamp, Coral Gables -- Certificate --
+                                An intensive 7 month long bootcamp dedicated to designing and building web applications. This course focused on Javascript 
+                                and student collaboration.</p>
                         </div>
                         <div class="col-sm" id="next">
                             <h2>What's Next</h2>
-                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Modi officia, commodi esse vero. Quia tenetur rerum vitae deserunt quae, provident voluptatum, nulla sit aspernatur cupiditate eligendi nihil enim eos quasi.</p>
+                                <p>I'm continuing to learn and grow. To further my knowledge and practice, I'm currently taking classes through edX.
+                                These classes include Havard's cs50x, Microsoft's Intro to React.js, Advanced CSS, and jQuery. As well as University of
+                                Michigan's Into to User Experience. I'm also looking into starting my AWS Certificate.
+                                </p>
                         </div>
                     </div>
                     <div class="row" id="download">
@@ -214,26 +242,66 @@
             </div>
             <!-- Contact me -->
             <div class="bordered">
-                <div class="row" id="contact">
-                    <div class="row" id="contactH">
-                        <h1>Contact</h1>
-                    </div>
-                        <form action="/action_page.php">
-                            <label for="name">Name</label>
-                            <input type="text" id="name" placeholder="Jane Smith">
-                            <label for="email">Email</label>
-                            <input type="text" id="email" placeholder="example@email.com">
-                            <label for="message">Message</label>
-                            <textarea id="subject" name="Message" style="height:200px"></textarea>
-                        </form>
-                        <form method="post" action="mailto:yesenia.coughlin@gmail.com">
-                            <input type="submit" value="Submit">
-                        </form>
+                <div class="row" id="contactH">
+                    <h1>Contact</h1>
+                    <p>Coming Soon</p>
                 </div>
+                <!-- <div class="row" id="contact">
+                    <form action="/action_page.php">
+                        <label for="name">Name</label>
+                        <input type="text" id="name" placeholder="Jane Smith">
+                        <label for="email">Email</label>
+                        <input type="text" id="email" placeholder="example@email.com">
+                        <label for="message">Message</label>
+                        <textarea id="subject" name="Message" style="height:200px"></textarea>
+                    </form>
+                    <form method="post" action="mailto:yesenia.coughlin@gmail.com">
+                        <input type="submit" value="Submit">
+                    </form>
+                </div> -->
             </div>
         </div>
     </div>
+  
     <!-- Footer -->
+    <!-- <div>
+        Icons made by
+        <a href="https://www.flaticon.com/authors/freepik" title="Linkedin Draw Logo">Linkedin Draw Logo</a> from
+        <a href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com</a> is licensed by
+        <a href="http://creativecommons.org/licenses/by/3.0/" title="Creative Commons BY 3.0" target="_blank">CC 3.0 BY</a>
+    </div>
+    <div>Icons made by
+        <a href="https://www.flaticon.com/authors/icomoon" title="Icomoon">Icomoon</a> from
+        <a href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com</a> is licensed by
+        <a href="http://creativecommons.org/licenses/by/3.0/" title="Creative Commons BY 3.0"
+            target="_blank">CC 3.0 BY</a>
+    </div>
+    <div>Icons made by
+        <a href="https://www.flaticon.com/authors/bogdan-rosu" title="Bogdan Rosu">Bogdan Rosu</a> from
+        <a href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com</a> is licensed by
+        <a href="http://creativecommons.org/licenses/by/3.0/" title="Creative Commons BY 3.0"
+            target="_blank">CC 3.0 BY</a>
+    </div>
+    <div>Icons made by
+        <a href="https://www.flaticon.com/authors/agata-kuczminska" title="Agata Kuczminska">Agata Kuczminska</a> from
+        <a href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com</a> is licensed by
+        <a href="http://creativecommons.org/licenses/by/3.0/" title="Creative Commons BY 3.0"
+            target="_blank">CC 3.0 BY</a>
+    </div> -->
     
+    <!-- particles canvas -->
+    <canvas class="background"></canvas>
+    <!-- Javascript -->
+    <script src="app.js"></script>
+    <!-- particlesjs -->
+    <!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/particlesjs/2.2.2/particles.min.js"></script> -->
+    <script src="particles.min.js"></script>
+    <!-- i'm so frustrated with this -->
+    <script>
+        particlesJS.load('particles-js', 'particles.json', 
+            function () {
+                    console.log('callback - particles.js config loaded');
+                });
+    </script>
 </body>
 </html>

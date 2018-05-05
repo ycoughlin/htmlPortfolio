@@ -7,6 +7,8 @@ body {
 	position: fixed;
 	top: 0;
 	transition: top 0.2s ease-in-out;*/
+
+/* ...below brace breaks styling when remove or commented out... */
 }
 
 div {
@@ -27,7 +29,7 @@ h1 {
 	font-family: 'Satisfy', cursive;
 	color: #1c0f13;
 	text-align: left;
-	border-bottom: 4px double #4f2a36;
+	/* border-bottom: 4px double #4f2a36; */
 }
 
 h2 {
@@ -90,9 +92,9 @@ form {
 
 }
 
-.container {
+/* .container {
 
-}
+} */
 
 .row {
 	margin-left: 0;
@@ -104,8 +106,24 @@ form {
 	flex-direction: row;
 }
 
-.col-sm {
+/* .social {
 
+} */
+
+/* .col-sm {
+
+} */
+
+#icon {
+	height: 35px;
+}
+
+#particles-js {
+	border-width: 6px;
+	border-color: #f1fb85;
+	border-style: double;
+	margin-top: 15px;
+	margin-bottom: 15px;
 }
 
 #image { 
@@ -116,9 +134,19 @@ form {
     margin-bottom: 15px;
 }
 
-#about {
-    background: linear-gradient(to bottom, #7ea7a7 0%, #95b7b7 100%);
+#welcome {
+	background: linear-gradient(to bottom, #729f9f 0%, #7ea7a7 100%);
+}
 
+#welcomeH {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	padding-top: 30px;
+}
+
+#about {
+	background: linear-gradient(to bottom, #7ea7a7 0%, #95b7b7 100%);
 }
 
 #name {
@@ -133,12 +161,6 @@ form {
 	margin-right: auto;
 	margin-top: 15px;
 
-}
-
-#welcome {
-	margin-top: 15px;
-	margin-bottom: 15px;
-	margin-left: 15px;
 }
 
 #aboutMe {

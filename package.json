@@ -1,0 +1,22 @@
+{
+  "name": "yeseniaport",
+  "version": "1.0.0",
+  "description": "yesenia's portfolio page",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ycoughlin/htmlPortfolio.git"
+  },
+  "author": "yesenia coughlin",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ycoughlin/htmlPortfolio/issues"
+  },
+  "homepage": "https://github.com/ycoughlin/htmlPortfolio#readme",
+  "dependencies": {
+    "particlesjs": "^2.2.2"
+  }
+}
