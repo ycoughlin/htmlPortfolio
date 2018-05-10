@@ -1,5 +1,5 @@
 body {
-    background: linear-gradient(to bottom, #6e7e85 0%, #89afaf, #b7cece 100%);
+    background: linear-gradient(to bottom, #6e7e85 0%, #89afaf, #b7cece, #d1dfdf 100%);
 }
 
 /*header {
@@ -36,7 +36,7 @@ h2 {
 	font-family: 'Courgette', cursive;
 	color: #1c0f13;
 	text-align: left;
-	border-bottom: 3px dotted #753e6c;
+	border-bottom: 3px dotted #4f2a48;
 }
 
 h3 {
@@ -56,6 +56,10 @@ button {
 	background-color: #BBBAC6;
 	color: #1c0f13;
 	font-family: 'Lato', sans-serif;
+	padding-left: 5px;
+	padding-right: 5px;
+	margin-top: 5px;
+	margin-bottom: 5px;
 }
 
 form {
